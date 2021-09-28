@@ -1,0 +1,674 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3091876146941354073
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3091876146941354075}
+  - component: {fileID: 3091876146941354074}
+  - component: {fileID: 3091876146941354077}
+  - component: {fileID: 3380477}
+  m_Layer: 0
+  m_Name: GameManger
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3091876146941354075
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3091876146941354073}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 2.2644434, y: 0.025447365, z: 1.0907428}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3091876146941354074
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3091876146941354073}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4cf1e5d64d13a24ba474068a58b0090, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  levels:
+  - {fileID: 1480921004871305909, guid: af13bc30fa091f642bd38042449af79b, type: 3}
+  - {fileID: 1480921004871305909, guid: 79247471681c507429e8b3e2f1083d7d, type: 3}
+  curLevelRef: {fileID: 0}
+  curLevelIndex: 0
+  delayOnLevelCompletion: 1.5
+  player: {fileID: 3604622982033612928, guid: 1d5c3fec6f963804fac53cea006768ce, type: 3}
+  playerRef: {fileID: 0}
+  levelComplete: 0
+  camMovement: {fileID: 0}
+  playerSpeed: 250
+--- !u!114 &3091876146941354077
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3091876146941354073}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8338027acfbea1e46b25e51e5334aedc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  defaultLevels:
+  - levelInfo:
+      columns:
+      - rows:
+        - type: 0
+          isSwitchOn: 0
+          pushDirection: 0
+        - type: 0
+          isSwitchOn: 0
+          pushDirection: 0
+        - type: 0
+          isSwitchOn: 0
+          pushDirection: 0
+        - type: 0
+          isSwitchOn: 0
+          pushDirection: 0
+        - type: 0
+          isSwitchOn: 0
+          pushDirection: 0
+      - rows:
+        - type: 0
+          isSwitchOn: 0
+          pushDirection: 0
+        - type: 1
+          isSwitchOn: 0
+          pushDirection: 0
+        - type: 1
+          isSwitchOn: 0
+          pushDirection: 0
+        - type: 1
+          isSwitchOn: 0
+          pushDirection: 0
+        - type: 0
+          isSwitchOn: 0
+          pushDirection: 0
+      - rows:
+        - type: 3
+          isSwitchOn: 0
+          pushDirection: 0
+        - type: 1
+          isSwitchOn: 0
+          pushDirection: 0
+        - type: 1
+          isSwitchOn: 0
+          pushDirection: 0
+        - type: 1
+          isSwitchOn: 0
+          pushDirection: 0
+        - type: 4
+          isSwitchOn: 0
+          pushDirection: 0
+      - rows:
+        - type: 0
+          isSwitchOn: 0
+          pushDirection: 0
+        - type: 1
+          isSwitchOn: 0
+          pushDirection: 0
+        - type: 1
+          isSwitchOn: 0
+          pushDirection: 0
+        - type: 1
+          isSwitchOn: 0
+          pushDirection: 0
+        - type: 0
+          isSwitchOn: 0
+          pushDirection: 0
+      - rows:
+        - type: 0
+          isSwitchOn: 0
+          pushDirection: 0
+        - type: 0
+          isSwitchOn: 0
+          pushDirection: 0
+        - type: 0
+          isSwitchOn: 0
+          pushDirection: 0
+        - type: 0
+          isSwitchOn: 0
+          pushDirection: 0
+        - type: 0
+          isSwitchOn: 0
+          pushDirection: 0
+    isCompleted: 0
+    movesMade: 0
+  - levelInfo:
+      columns:
+      - rows:
+        - type: 0
+          isSwitchOn: 0
+          pushDirection: 0
+        - type: 0
+          isSwitchOn: 0
+          pushDirection: 0
+        - type: 0
+          isSwitchOn: 0
+          pushDirection: 0
+        - type: 0
+          isSwitchOn: 0
+          pushDirection: 0
+        - type: 0
+          isSwitchOn: 0
+          pushDirection: 0
+      - rows:
+        - type: 0
+          isSwitchOn: 0
+          pushDirection: 0
+        - type: 1
+          isSwitchOn: 0
+          pushDirection: 0
+        - type: 1
+          isSwitchOn: 0
+          pushDirection: 0
+        - type: 1
+          isSwitchOn: 0
+          pushDirection: 0
+        - type: 0
+          isSwitchOn: 0
+          pushDirection: 0
+      - rows:
+        - type: 3
+          isSwitchOn: 0
+          pushDirection: 0
+        - type: 1
+          isSwitchOn: 0
+          pushDirection: 0
+        - type: 2
+          isSwitchOn: 0
+          pushDirection: 0
+        - type: 1
+          isSwitchOn: 0
+          pushDirection: 0
+        - type: 4
+          isSwitchOn: 0
+          pushDirection: 0
+      - rows:
+        - type: 0
+          isSwitchOn: 0
+          pushDirection: 0
+        - type: 1
+          isSwitchOn: 0
+          pushDirection: 0
+        - type: 1
+          isSwitchOn: 0
+          pushDirection: 0
+        - type: 1
+          isSwitchOn: 0
+          pushDirection: 0
+        - type: 0
+          isSwitchOn: 0
+          pushDirection: 0
+      - rows:
+        - type: 0
+          isSwitchOn: 0
+          pushDirection: 0
+        - type: 0
+          isSwitchOn: 0
+          pushDirection: 0
+        - type: 0
+          isSwitchOn: 0
+          pushDirection: 0
+        - type: 0
+          isSwitchOn: 0
+          pushDirection: 0
+        - type: 0
+          isSwitchOn: 0
+          pushDirection: 0
+    isCompleted: 0
+    movesMade: 0
+  - levelInfo:
+      columns:
+      - rows:
+        - type: 0
+          isSwitchOn: 0
+          pushDirection: 0
+        - type: 0
+          isSwitchOn: 0
+          pushDirection: 0
+        - type: 0
+          isSwitchOn: 0
+          pushDirection: 0
+        - type: 0
+          isSwitchOn: 0
+          pushDirection: 0
+        - type: 0
+          isSwitchOn: 0
+          pushDirection: 0
+      - rows:
+        - type: 0
+          isSwitchOn: 0
+          pushDirection: 0
+        - type: 0
+          isSwitchOn: 0
+          pushDirection: 0
+        - type: 1
+          isSwitchOn: 0
+          pushDirection: 0
+        - type: 1
+          isSwitchOn: 0
+          pushDirection: 0
+        - type: 0
+          isSwitchOn: 0
+          pushDirection: 0
+      - rows:
+        - type: 3
+          isSwitchOn: 0
+          pushDirection: 0
+        - type: 1
+          isSwitchOn: 0
+          pushDirection: 0
+        - type: 2
+          isSwitchOn: 1
+          pushDirection: 0
+        - type: 1
+          isSwitchOn: 0
+          pushDirection: 0
+        - type: 4
+          isSwitchOn: 0
+          pushDirection: 0
+      - rows:
+        - type: 0
+          isSwitchOn: 0
+          pushDirection: 0
+        - type: 1
+          isSwitchOn: 0
+          pushDirection: 0
+        - type: 1
+          isSwitchOn: 0
+          pushDirection: 0
+        - type: 0
+          isSwitchOn: 0
+          pushDirection: 0
+        - type: 0
+          isSwitchOn: 0
+          pushDirection: 0
+      - rows:
+        - type: 0
+          isSwitchOn: 0
+          pushDirection: 0
+        - type: 0
+          isSwitchOn: 0
+          pushDirection: 0
+        - type: 0
+          isSwitchOn: 0
+          pushDirection: 0
+        - type: 0
+          isSwitchOn: 0
+          pushDirection: 0
+        - type: 0
+          isSwitchOn: 0
+          pushDirection: 0
+    isCompleted: 0
+    movesMade: 0
+  - levelInfo:
+      columns:
+      - rows:
+        - type: 0
+          isSwitchOn: 0
+          pushDirection: 0
+        - type: 0
+          isSwitchOn: 0
+          pushDirection: 0
+        - type: 0
+          isSwitchOn: 0
+          pushDirection: 0
+        - type: 0
+          isSwitchOn: 0
+          pushDirection: 0
+        - type: 0
+          isSwitchOn: 0
+          pushDirection: 0
+      - rows:
+        - type: 0
+          isSwitchOn: 0
+          pushDirection: 0
+        - type: 0
+          isSwitchOn: 0
+          pushDirection: 0
+        - type: 1
+          isSwitchOn: 0
+          pushDirection: 0
+        - type: 1
+          isSwitchOn: 0
+          pushDirection: 0
+        - type: 0
+          isSwitchOn: 0
+          pushDirection: 0
+      - rows:
+        - type: 3
+          isSwitchOn: 0
+          pushDirection: 0
+        - type: 1
+          isSwitchOn: 0
+          pushDirection: 0
+        - type: 2
+          isSwitchOn: 1
+          pushDirection: 0
+        - type: 1
+          isSwitchOn: 0
+          pushDirection: 0
+        - type: 4
+          isSwitchOn: 0
+          pushDirection: 0
+      - rows:
+        - type: 0
+          isSwitchOn: 0
+          pushDirection: 0
+        - type: 1
+          isSwitchOn: 0
+          pushDirection: 0
+        - type: 1
+          isSwitchOn: 0
+          pushDirection: 0
+        - type: 0
+          isSwitchOn: 0
+          pushDirection: 0
+        - type: 0
+          isSwitchOn: 0
+          pushDirection: 0
+      - rows:
+        - type: 0
+          isSwitchOn: 0
+          pushDirection: 0
+        - type: 0
+          isSwitchOn: 0
+          pushDirection: 0
+        - type: 0
+          isSwitchOn: 0
+          pushDirection: 0
+        - type: 0
+          isSwitchOn: 0
+          pushDirection: 0
+        - type: 0
+          isSwitchOn: 0
+          pushDirection: 0
+    isCompleted: 0
+    movesMade: 0
+  - levelInfo:
+      columns:
+      - rows:
+        - type: 0
+          isSwitchOn: 0
+          pushDirection: 0
+        - type: 0
+          isSwitchOn: 0
+          pushDirection: 0
+        - type: 1
+          isSwitchOn: 0
+          pushDirection: 0
+        - type: 1
+          isSwitchOn: 0
+          pushDirection: 0
+        - type: 4
+          isSwitchOn: 0
+          pushDirection: 0
+      - rows:
+        - type: 0
+          isSwitchOn: 0
+          pushDirection: 0
+        - type: 0
+          isSwitchOn: 0
+          pushDirection: 0
+        - type: 1
+          isSwitchOn: 0
+          pushDirection: 0
+        - type: 0
+          isSwitchOn: 0
+          pushDirection: 0
+        - type: 0
+          isSwitchOn: 0
+          pushDirection: 0
+      - rows:
+        - type: 3
+          isSwitchOn: 0
+          pushDirection: 0
+        - type: 1
+          isSwitchOn: 0
+          pushDirection: 0
+        - type: 2
+          isSwitchOn: 1
+          pushDirection: 0
+        - type: 0
+          isSwitchOn: 0
+          pushDirection: 0
+        - type: 0
+          isSwitchOn: 0
+          pushDirection: 0
+      - rows:
+        - type: 0
+          isSwitchOn: 0
+          pushDirection: 0
+        - type: 1
+          isSwitchOn: 0
+          pushDirection: 0
+        - type: 5
+          isSwitchOn: 0
+          pushDirection: 0
+        - type: 0
+          isSwitchOn: 0
+          pushDirection: 0
+        - type: 0
+          isSwitchOn: 0
+          pushDirection: 0
+      - rows:
+        - type: 0
+          isSwitchOn: 0
+          pushDirection: 0
+        - type: 0
+          isSwitchOn: 0
+          pushDirection: 0
+        - type: 0
+          isSwitchOn: 0
+          pushDirection: 0
+        - type: 0
+          isSwitchOn: 0
+          pushDirection: 0
+        - type: 0
+          isSwitchOn: 0
+          pushDirection: 0
+    isCompleted: 0
+    movesMade: 0
+  - levelInfo:
+      columns:
+      - rows:
+        - type: 1
+          isSwitchOn: 1
+          pushDirection: 0
+        - type: 1
+          isSwitchOn: 0
+          pushDirection: 0
+        - type: 1
+          isSwitchOn: 0
+          pushDirection: 0
+        - type: 0
+          isSwitchOn: 0
+          pushDirection: 0
+        - type: 0
+          isSwitchOn: 0
+          pushDirection: 0
+      - rows:
+        - type: 1
+          isSwitchOn: 0
+          pushDirection: 0
+        - type: 0
+          isSwitchOn: 0
+          pushDirection: 0
+        - type: 1
+          isSwitchOn: 0
+          pushDirection: 0
+        - type: 0
+          isSwitchOn: 0
+          pushDirection: 0
+        - type: 0
+          isSwitchOn: 0
+          pushDirection: 0
+      - rows:
+        - type: 3
+          isSwitchOn: 0
+          pushDirection: 0
+        - type: 1
+          isSwitchOn: 0
+          pushDirection: 0
+        - type: 2
+          isSwitchOn: 1
+          pushDirection: 0
+        - type: 1
+          isSwitchOn: 0
+          pushDirection: 0
+        - type: 4
+          isSwitchOn: 1
+          pushDirection: 0
+      - rows:
+        - type: 1
+          isSwitchOn: 0
+          pushDirection: 0
+        - type: 0
+          isSwitchOn: 0
+          pushDirection: 0
+        - type: 1
+          isSwitchOn: 0
+          pushDirection: 0
+        - type: 0
+          isSwitchOn: 0
+          pushDirection: 0
+        - type: 0
+          isSwitchOn: 0
+          pushDirection: 0
+      - rows:
+        - type: 2
+          isSwitchOn: 0
+          pushDirection: 0
+        - type: 1
+          isSwitchOn: 0
+          pushDirection: 0
+        - type: 5
+          isSwitchOn: 0
+          pushDirection: 0
+        - type: 0
+          isSwitchOn: 0
+          pushDirection: 0
+        - type: 0
+          isSwitchOn: 0
+          pushDirection: 0
+    isCompleted: 0
+    movesMade: 0
+  defaultLevelsOrder: 010000000500000002000000040000000000000003000000
+  customLevels: []
+  templateLevelPrefab: {fileID: 7913217909928413876, guid: 82976d7e68f41c4428c7dc17f7ac4c13, type: 3}
+--- !u!82 &3380477
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3091876146941354073}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
